@@ -1,6 +1,6 @@
 from typing import List
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    def SortArray(self, nums: List[int]) -> None:
         zeros = []
         ones = []
         twos = []
@@ -20,3 +20,4 @@ class Solution:
 
 
         
+
