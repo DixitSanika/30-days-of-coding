@@ -1,0 +1,14 @@
+from typing import List
+
+class Solution:
+    def find_duplicate(self, nums: List[int]) -> int:
+        seen = set()
+        for n in nums:
+            if n in seen:
+                return n
+            seen.add(n)
+            
+       
+
+        
+        
