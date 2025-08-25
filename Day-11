@@ -1,0 +1,7 @@
+# Permutations of a string:
+
+from itertools import permutations
+class Solution:
+    def findPermutation(self, s):
+        p = set("".join(i) for i in permutations(s))
+        return list(p)
