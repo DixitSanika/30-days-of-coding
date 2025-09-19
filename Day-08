@@ -1,6 +1,9 @@
+# Reverse a string word by word:
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         rev = s.split()
         rev_words = rev[::-1]
         result = " ".join(rev_words)
+
         return result
